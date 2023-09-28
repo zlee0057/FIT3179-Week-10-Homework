@@ -1,0 +1,266 @@
+country_code,country_name,year,value
+ABW,Aruba,2021,501.0
+AFE,Africa Eastern and Southern,2021,-179444.0
+AFG,Afghanistan,2021,-183672.0
+AFW,Africa Western and Central,2021,-264802.0
+AGO,Angola,2021,29089.0
+ALB,Albania,2021,-10612.0
+AND,Andorra,2021,1377.0
+ARB,Arab World,2021,-458710.0
+ARE,United Arab Emirates,2021,-2762.0
+ARG,Argentina,2021,2344.0
+ARM,Armenia,2021,-12825.0
+ASM,American Samoa,2021,-1646.0
+ATG,Antigua and Barbuda,2021,0.0
+AUS,Australia,2021,117929.0
+AUT,Austria,2021,20314.0
+AZE,Azerbaijan,2021,1084.0
+BDI,Burundi,2021,-14415.0
+BEL,Belgium,2021,52356.0
+BEN,Benin,2021,1732.0
+BFA,Burkina Faso,2021,-13097.0
+BGD,Bangladesh,2021,-174500.0
+BGR,Bulgaria,2021,-8716.0
+BHR,Bahrain,2021,-9150.0
+BHS,"Bahamas, The",2021,485.0
+BIH,Bosnia and Herzegovina,2021,-25865.0
+BLR,Belarus,2021,12961.0
+BLZ,Belize,2021,577.0
+BMU,Bermuda,2021,291.0
+BOL,Bolivia,2021,-4666.0
+BRA,Brazil,2021,20376.0
+BRB,Barbados,2021,-28.0
+BRN,Brunei Darussalam,2021,-192.0
+BTN,Bhutan,2021,291.0
+BWA,Botswana,2021,1816.0
+CAF,Central African Republic,2021,-85860.0
+CAN,Canada,2021,195181.0
+CEB,Central Europe and the Baltics,2021,-20678.0
+CHE,Switzerland,2021,23872.0
+CHI,Channel Islands,2021,1242.0
+CHL,Chile,2021,113709.0
+CHN,China,2021,-200194.0
+CIV,Cote d'Ivoire,2021,-21000.0
+CMR,Cameroon,2021,-9889.0
+COD,"Congo, Dem. Rep.",2021,-64643.0
+COG,"Congo, Rep.",2021,-4466.0
+COL,Colombia,2021,211978.0
+COM,Comoros,2021,-1772.0
+CPV,Cabo Verde,2021,-1274.0
+CRI,Costa Rica,2021,2084.0
+CSS,Caribbean small states,2021,-7303.0
+CUB,Cuba,2021,-7068.0
+CUW,Curacao,2021,502.0
+CYM,Cayman Islands,2021,276.0
+CYP,Cyprus,2021,1995.0
+CZE,Czechia,2021,3621.0
+DEU,Germany,2021,312735.0
+DJI,Djibouti,2021,742.0
+DMA,Dominica,2021,57.0
+DNK,Denmark,2021,22746.0
+DOM,Dominican Republic,2021,-14966.0
+DZA,Algeria,2021,-18797.0
+EAP,East Asia & Pacific (excluding high income),2021,-325171.0
+EAR,Early-demographic dividend,2021,-1622432.0
+EAS,East Asia & Pacific,2021,9227.0
+ECA,Europe & Central Asia (excluding high income),2021,92645.0
+ECS,Europe & Central Asia,2021,1242327.0
+ECU,Ecuador,2021,35894.0
+EGY,"Egypt, Arab Rep.",2021,-32370.0
+EMU,Euro area,2021,819231.0
+ERI,Eritrea,2021,-14988.0
+ESP,Spain,2021,275022.0
+EST,Estonia,2021,2995.0
+ETH,Ethiopia,2021,-1391.0
+EUU,European Union,2021,910755.0
+FCS,Fragile and conflict affected situations,2021,-1268196.0
+FIN,Finland,2021,14928.0
+FJI,Fiji,2021,-6003.0
+FRA,France,2021,20614.0
+FRO,Faroe Islands,2021,0.0
+FSM,"Micronesia, Fed. Sts.",2021,-635.0
+GAB,Gabon,2021,1516.0
+GBR,United Kingdom,2021,202027.0
+GEO,Georgia,2021,-2734.0
+GHA,Ghana,2021,-11253.0
+GIB,Gibraltar,2021,-58.0
+GIN,Guinea,2021,-4367.0
+GMB,"Gambia, The",2021,-1960.0
+GNB,Guinea-Bissau,2021,-1395.0
+GNQ,Equatorial Guinea,2021,6486.0
+GRC,Greece,2021,-14806.0
+GRD,Grenada,2021,-85.0
+GRL,Greenland,2021,-62.0
+GTM,Guatemala,2021,-29118.0
+GUM,Guam,2021,-244.0
+GUY,Guyana,2021,-4316.0
+HIC,High income,2021,2128855.0
+HKG,"Hong Kong SAR, China",2021,0.0
+HND,Honduras,2021,-5779.0
+HPC,Heavily indebted poor countries (HIPC),2021,-537784.0
+HRV,Croatia,2021,-10402.0
+HTI,Haiti,2021,-32977.0
+HUN,Hungary,2021,19870.0
+IBD,IBRD only,2021,-909051.0
+IBT,IDA & IBRD total,2021,-2014815.0
+IDA,IDA total,2021,-1105764.0
+IDB,IDA blend,2021,-677855.0
+IDN,Indonesia,2021,-14992.0
+IDX,IDA only,2021,-427909.0
+IMN,Isle of Man,2021,517.0
+IND,India,2021,-301970.0
+IRL,Ireland,2021,15320.0
+IRN,"Iran, Islamic Rep.",2021,28080.0
+IRQ,Iraq,2021,-60097.0
+ISL,Iceland,2021,622.0
+ISR,Israel,2021,16856.0
+ITA,Italy,2021,28021.0
+JAM,Jamaica,2021,-5664.0
+JOR,Jordan,2021,14374.0
+JPN,Japan,2021,87584.0
+KAZ,Kazakhstan,2021,-18917.0
+KEN,Kenya,2021,-52549.0
+KGZ,Kyrgyz Republic,2021,-16510.0
+KHM,Cambodia,2021,-24262.0
+KIR,Kiribati,2021,-296.0
+KNA,St. Kitts and Nevis,2021,-90.0
+KOR,"Korea, Rep.",2021,43440.0
+KWT,Kuwait,2021,-36843.0
+LAC,Latin America & Caribbean (excluding high income),2021,137206.0
+LAO,Lao PDR,2021,-10303.0
+LBN,Lebanon,2021,-115122.0
+LBR,Liberia,2021,-11862.0
+LBY,Libya,2021,-696.0
+LCA,St. Lucia,2021,0.0
+LCN,Latin America & Caribbean,2021,-273494.0
+LDC,Least developed countries: UN classification,2021,-521774.0
+LIC,Low income,2021,-338527.0
+LIE,Liechtenstein,2021,231.0
+LKA,Sri Lanka,2021,-92400.0
+LMC,Lower middle income,2021,-1444849.0
+LMY,Low & middle income,2021,-1606595.0
+LSO,Lesotho,2021,-1490.0
+LTE,Late-demographic dividend,2021,60109.0
+LTU,Lithuania,2021,-11853.0
+LUX,Luxembourg,2021,6949.0
+LVA,Latvia,2021,-6815.0
+MAC,"Macao SAR, China",2021,4004.0
+MAF,St. Martin (French part),2021,-948.0
+MAR,Morocco,2021,-46242.0
+MCO,Monaco,2021,206.0
+MDA,Moldova,2021,-14278.0
+MDG,Madagascar,2021,-742.0
+MDV,Maldives,2021,1189.0
+MEA,Middle East & North Africa,2021,-367806.0
+MEX,Mexico,2021,-52649.0
+MHL,Marshall Islands,2021,-1901.0
+MIC,Middle income,2021,-1268068.0
+MKD,North Macedonia,2021,-486.0
+MLI,Mali,2021,-22236.0
+MLT,Malta,2021,10408.0
+MMR,Myanmar,2021,-35382.0
+MNA,Middle East & North Africa (excluding high income),2021,-140967.0
+MNE,Montenegro,2021,-101.0
+MNG,Mongolia,2021,0.0
+MNP,Northern Mariana Islands,2021,-431.0
+MOZ,Mozambique,2021,-9515.0
+MRT,Mauritania,2021,-1494.0
+MUS,Mauritius,2021,-478.0
+MWI,Malawi,2021,-1775.0
+MYS,Malaysia,2021,46165.0
+NAC,North America,2021,757052.0
+NAM,Namibia,2021,-4301.0
+NCL,New Caledonia,2021,-1182.0
+NER,Niger,2021,-4405.0
+NGA,Nigeria,2021,-76364.0
+NIC,Nicaragua,2021,-10384.0
+NLD,Netherlands,2021,57439.0
+NOR,Norway,2021,10604.0
+NPL,Nepal,2021,296541.0
+NRU,Nauru,2021,-66.0
+NZL,New Zealand,2021,38220.0
+OED,OECD members,2021,2433502.0
+OMN,Oman,2021,-20664.0
+OSS,Other small states,2021,-32353.0
+PAK,Pakistan,2021,-471395.0
+PAN,Panama,2021,5473.0
+PER,Peru,2021,68012.0
+PHL,Philippines,2021,-80125.0
+PLW,Palau,2021,3.0
+PNG,Papua New Guinea,2021,10695.0
+POL,Poland,2021,-2968.0
+PRE,Pre-demographic dividend,2021,-647431.0
+PRI,Puerto Rico,2021,-7408.0
+PRK,"Korea, Dem. People's Rep.",2021,-1589.0
+PRT,Portugal,2021,27295.0
+PRY,Paraguay,2021,-8230.0
+PSE,West Bank and Gaza,2021,-12369.0
+PSS,Pacific island small states,2021,-11748.0
+PST,Post-demographic dividend,2021,2195799.0
+PYF,French Polynesia,2021,-378.0
+QAT,Qatar,2021,-30801.0
+ROU,Romania,2021,-12724.0
+RUS,Russian Federation,2021,320617.0
+RWA,Rwanda,2021,-6112.0
+SAS,South Asia,2021,-925916.0
+SAU,Saudi Arabia,2021,-153883.0
+SDN,Sudan,2021,-15223.0
+SEN,Senegal,2021,-10091.0
+SGP,Singapore,2021,19321.0
+SLB,Solomon Islands,2021,-808.0
+SLE,Sierra Leone,2021,-1544.0
+SLV,El Salvador,2021,-27343.0
+SMR,San Marino,2021,41.0
+SOM,Somalia,2021,-17071.0
+SRB,Serbia,2021,243.0
+SSA,Sub-Saharan Africa (excluding high income),2021,-444392.0
+SSD,South Sudan,2021,-31885.0
+SSF,Sub-Saharan Africa,2021,-444246.0
+SST,Small states,2021,-51404.0
+STP,Sao Tome and Principe,2021,-792.0
+SUR,Suriname,2021,-492.0
+SVK,Slovak Republic,2021,1746.0
+SVN,Slovenia,2021,4568.0
+SWE,Sweden,2021,80097.0
+SWZ,Eswatini,2021,-4897.0
+SXM,Sint Maarten (Dutch part),2021,212.0
+SYC,Seychelles,2021,146.0
+SYR,Syrian Arab Republic,2021,212187.0
+TCA,Turks and Caicos Islands,2021,682.0
+TCD,Chad,2021,9016.0
+TEA,East Asia & Pacific (IDA & IBRD countries),2021,-322002.0
+TEC,Europe & Central Asia (IDA & IBRD countries),2021,66551.0
+TGO,Togo,2021,-995.0
+THA,Thailand,2021,1133.0
+TJK,Tajikistan,2021,-3564.0
+TKM,Turkmenistan,2021,-4503.0
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2021,-260604.0
+TLS,Timor-Leste,2021,-1997.0
+TMN,Middle East & North Africa (IDA & IBRD countries),2021,-128598.0
+TON,Tonga,2021,-948.0
+TSA,South Asia (IDA & IBRD),2021,-925916.0
+TSS,Sub-Saharan Africa (IDA & IBRD countries),2021,-444246.0
+TTO,Trinidad and Tobago,2021,2632.0
+TUN,Tunisia,2021,-9189.0
+TUR,Turkiye,2021,-69729.0
+TUV,Tuvalu,2021,-15.0
+TZA,Tanzania,2021,-4865.0
+UGA,Uganda,2021,43465.0
+UKR,Ukraine,2021,831.0
+UMC,Upper middle income,2021,176781.0
+URY,Uruguay,2021,-1486.0
+USA,United States,2021,561580.0
+UZB,Uzbekistan,2021,-39201.0
+VCT,St. Vincent and the Grenadines,2021,-379.0
+VEN,"Venezuela, RB",2021,-525116.0
+VGB,British Virgin Islands,2021,128.0
+VIR,Virgin Islands (U.S.),2021,-224.0
+VNM,Vietnam,2021,-992.0
+VUT,Vanuatu,2021,-197.0
+WLD,World,2021,0.0
+WSM,Samoa,2021,-882.0
+XKX,Kosovo,2021,-15050.0
+YEM,"Yemen, Rep.",2021,-101468.0
+ZAF,South Africa,2021,10934.0
+ZMB,Zambia,2021,9015.0
+ZWE,Zimbabwe,2021,-25005.0
