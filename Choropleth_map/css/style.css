@@ -1,0 +1,9 @@
+#choropleth_map {
+    margin: auto;
+}
+
+/* Style for increasing slider length */
+#yearSlider {
+    width: 1000px;
+    margin-top: 10px;
+}
