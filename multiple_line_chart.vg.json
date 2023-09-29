@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/ExumZ/FIT3179-Week-10-Homework/main/Multiple_line_chart/data/income_group_data_2000_2020.csv"},
-    "width": 630,
-    "height": 400,
+    "width": 300,
+    "height": 150,
     "title": "Net Number of Migrants (By thousands) from 2000 to 2020 by Income Group",
     "encoding": {
         "x": {
