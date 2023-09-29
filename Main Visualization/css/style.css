@@ -4,6 +4,11 @@ body *{
 
 h1 {
     font-weight: 900;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 body {
@@ -19,7 +24,8 @@ body {
 }
 
 .vis-container {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
 }
 
 .description h2,
