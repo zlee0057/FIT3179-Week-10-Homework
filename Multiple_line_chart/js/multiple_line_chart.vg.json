@@ -1,46 +1,80 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Net Number of Migrants (by thousands) based on Income Groups From 2000 to 2020",
+    "data": {"url": "https://raw.githubusercontent.com/ExumZ/FIT3179-Week-10-Homework/main/Multiple_line_chart/data/income_group_data_2000_2020.csv"},
     "width": 800,
     "height": 600,
-    "data": {"url": "https://raw.githubusercontent.com/ExumZ/FIT3179-Week-10-Homework/main/Multiple_line_chart/data/income_group_data_2000_2020.csv"},
-    "mark": {
-        "type": "line",
-        "point": true
-    },
+    "title": "Net Number of Migrants (By thousands) from 2000 to 2020",
     "encoding": {
         "x": {
             "field": "Time", 
             "type": "temporal", 
             "title": "Year"
-        },
-        "y": {
-            "field": "NetMigrations", 
-            "type": "quantitative", 
-            "title": "Net Number of Migrants (by thousands)"
-        },
-        "color": {
-            "field": "Location", 
-            "type": "nominal", 
-            "title": "Income Group",
-            "scale": {
-                "domain": [
-                    "High-income countries",
-                    "Upper-middle-income countries",
-                    "Middle-income countries",
-                    "Lower-middle-income countries",
-                    "Low-income countries",
-                    "No income group available"
-                ]
-            }
-        },
-        "tooltip": [
-            {
-                "field": "Location", "type": "nominal", "title": "Income Group"
+        }
+    },
+    "layer": [
+        {
+            "encoding": {
+                "color": {
+                    "field": "Location", 
+                    "type": "nominal",
+                    "title": "Income Group",
+                    "scale": {
+                        "domain": [
+                            "High-income countries",
+                            "Upper-middle-income countries",
+                            "Middle-income countries",
+                            "Lower-middle-income countries",
+                            "Low-income countries",
+                            "No income group available"
+                        ]
+                    }
+                },
+                "y": {
+                    "field": "NetMigrations", 
+                    "type": "quantitative",
+                    "title": "Net Number of Migrants (By thousands)"
+                }
             },
-            {
-                "field": "NetMigrations", "type": "quantitative", "title": "Net Number of Migrants"
-            }
-        ]
-    }
-  }
+            "layer": [
+                {"mark": "line"},
+                {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
+            ]
+        },
+        {
+            "transform": [
+                {
+                    "pivot": "Location", 
+                    "value": "NetMigrations", 
+                    "groupby": ["Time"]
+                }
+            ],
+            "mark": "rule",
+            "encoding": {
+            "opacity": {
+                "condition": {"value": 0.3, "param": "hover", "empty": false},
+                "value": 0
+            },
+            "tooltip": [
+                {"field": "High-income countries", "title": "High-income"},
+                {"field": "Upper-middle-income countries", "title": "Upper-middle-income"},
+                {"field": "Middle-income countries", "title": "Middle-income"},
+                {"field": "Lower-middle-income countries", "title": "Lower-middle-income"},
+                {"field": "Low-income countries", "title": "Low-income"},
+                {"field": "No income group available", "title": "No income group available"}
+            ]
+            },
+            "params": [
+                {
+                    "name": "hover",
+                    "select": {
+                        "type": "point",
+                        "fields": ["Time"],
+                        "nearest": true,
+                        "on": "mouseover",
+                        "clear": "mouseout"
+                    }
+                }
+            ]
+        }
+    ]
+}
