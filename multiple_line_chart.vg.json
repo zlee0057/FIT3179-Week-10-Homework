@@ -1,9 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/ExumZ/FIT3179-Week-10-Homework/main/Multiple_line_chart/data/income_group_data_2000_2020.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/ExumZ/FIT3179-Assignment-2/main/Multiple_line_chart/data/income_group_data_2000_2020_cleaned.csv"},
     "width": 300,
-    "height": 150,
-    "title": "Net Number of Migrants (By thousands) from 2000 to 2020 by Income Group",
+    "height": 190,
+    "title": {
+        "text": "Net Number of Migrants from 2000 to 2020 by Income Group",
+        "fontSize": 16
+    },
     "encoding": {
         "x": {
             "field": "Time", 
@@ -17,7 +20,7 @@
                 "color": {
                     "field": "Location", 
                     "type": "nominal",
-                    "title": "Income Group",
+                    "title": "Income Groups",
                     "scale": {
                         "domain": [
                             "High-income countries",
@@ -75,6 +78,27 @@
                     }
                 }
             ]
+        },
+        {
+          "data": { "values": [{"Time": "2020", "Event": "Covid-19"}] },
+          "mark": "text",
+          "encoding": {
+            "text": { "value": "Year of Covid-19" },
+            "color": { "value": "purple" },
+            "size": { "value": 12 },
+            "x": { "value": 250 },
+            "y": { "value": 10 }
+          }
+        },
+        {
+          "data": { "values": [{"Time": "2020"}] },
+          "mark": "rule",
+          "encoding": {
+            "color": {
+              "value": "purple"
+            },
+            "strokeDash": { "value": [2, 2] }
+          }
         }
     ]
 }
